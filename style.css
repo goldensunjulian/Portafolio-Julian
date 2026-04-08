@@ -1,0 +1,102 @@
+header{
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 20px;
+    padding: 20px;
+}
+ul a{ text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 21px;
+}
+ul a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#sobre-mi{
+    display: flex;
+    border-style: solid;  
+    width: 40%;
+}
+#img-sobre-mi{
+    display: flex;
+    border-radius: 50%;
+    border-style:solid;
+    margin: 40px;
+}
+
+#descripcion{
+    display: flex;
+    border-style: solid;
+    width: 50%;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-right: 48%;
+}
+#decoracion{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    
+    background-color: black;
+}
+#decoracion a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+#proyectos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;            
+    border-style: solid;
+    margin-left: -50%;
+    margin-top: -40px;
+}
+#proyectos {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+    border-style: solid;
+}
+
+.lenguajes{
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    margin-right: 20%;
+    pad: 20px;
+    margin-bottom: -75px;
+    margin-top: -5%;
+}
+.lenguajes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 10%;            
+    border-style: solid;
+}
+
+a:visited img {
+    border-color: black; 
+}

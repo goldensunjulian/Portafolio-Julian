@@ -25,3 +25,19 @@ img{
     object-fit: cover;
 
 }
+section{
+    display: flex;
+    border-style: solid;
+}
+div{
+    display: flex;
+    border-style: solid;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    
+}
+table{
+    font-size: 138%
+}

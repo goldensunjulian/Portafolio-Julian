@@ -61,3 +61,14 @@ a:visited img {
 table{
     width: 20%;
 }
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-art-deco_23-2149167499.jpg?semt=ais_hybrid&w=740&q=80);
+}
+#texto{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#tablaxd{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}

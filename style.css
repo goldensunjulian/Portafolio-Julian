@@ -24,12 +24,16 @@ ul a:hover{
     margin-top: 40px;
     padding-top: 10px;
     margin-right: 58%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 15%;
 }
 #img-sobre-mi{
     display: flex;
     border-radius: 50%;
     border-style:solid;
     margin: 40px;
+    
     
 }
 
@@ -40,6 +44,7 @@ ul a:hover{
     margin-top: 40px;
     padding-top: 10px;
     margin-right: 48%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #decoracion{
     display: flex;
@@ -75,6 +80,8 @@ ul a:hover{
     flex-direction: column;
     margin-top: 10%;
     font-size: 90%;
+    background-color: rgb(32, 32, 32);
+    color: white;
 }
 .project{
     margin-right:7% ;
@@ -111,6 +118,8 @@ a:visited img {
     margin-left: -120%;
     margin-top: 20%;
     font-size: 90%;
+    background-color: rgb(32, 32, 32);
+    color: white;
 }
 .aña{
     width: 150px;
@@ -118,22 +127,42 @@ a:visited img {
     object-fit: cover;
     border: 2px solid black;
 }
-#contactos{
-    border-style: solid;
-    margin-bottom: -40%;
-    margin-top: -29%;
-    width: 50%;
-}
+
 #contactos img{
+    display: grid;
     border-style: solid;
     width: 150px;
     height: 150px;
     object-fit: cover;
-    margin-top: 1%;
-    margin-bottom: 1%;
     border-radius: 50%;
-    margin-left: 6%;
+    margin-right: 10%;
+    margin-left: 40%;
+    
 }
 #contactos img:hover{
     transform: scale(1.1);
+}
+body{
+    background-color: rgb(255, 255, 255);    
+    background-image: url(https://wallpapers.com/images/hd/hypnotising-black-and-red-hexagons-1bcjfbamkbdurj5y.jpg);
+}
+#contenedor-informacion{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#descripcion{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#contac{
+    
+    border-style: solid;
+    width: 48%;
+    margin-top: -28%;
+    padding: 1%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#contactos{
+    display: flex;
 }

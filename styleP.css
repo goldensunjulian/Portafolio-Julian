@@ -24,6 +24,8 @@ section{
 #titulo{
     text-align: center;
     font-size: 200%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/831/146/small/banner-web-template-abstract-blue-and-golden-wave-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    color: white;
 }
 #proyectos {
     display: grid;
@@ -31,6 +33,7 @@ section{
     margin: 30px;
     justify-content: center;
     align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/831/146/small/banner-web-template-abstract-blue-and-golden-wave-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
 }
 article{
     display: flex;
@@ -40,7 +43,12 @@ article{
     align-items: center;
     justify-content: center;
     padding: 5%;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-ondulado-azul_1035-7705.jpg?semt=ais_hybrid&w=740&q=80);
 }
 article:hover{
     transform: scale(1.2);
+    transition: 0.5s;
+}
+body{
+    background-color: rgb(34, 34, 34);
 }

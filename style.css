@@ -46,8 +46,10 @@ ul a:hover{
     list-style: none;
     justify-content: center;
     gap: 20px;
-    
     background-color: black;
+}
+#decoracion a:hover{
+    transform:scale(1.5);
 }
 #decoracion a{
     text-decoration: none;
@@ -57,7 +59,7 @@ ul a:hover{
     padding-left: 50%;
     padding-right: 50%;
 }
-#proyectos img {
+.ala {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -66,43 +68,72 @@ ul a:hover{
 }
 .proyectos {
     display: flex;
+    align-items: center;
+    padding: 10%;
+    width: 100%;            
+    border-style: solid;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 90%;
+}
+.project{
+    margin-right:7% ;
+}
+#extras {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+    margin-top: -48%;
+    margin-bottom: 10%;
+}
+
+a:visited img {
+    border-color: black; 
+}
+
+#lenguajes{
+    display: flex;
+    margin-right: 8%;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;;
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+.nose{
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     width: 100%;            
     border-style: solid;
-    margin-left: -50%;
-    
+    margin-left: -120%;
+    margin-top: 20%;
+    font-size: 90%;
 }
-#proyectos {
-    display: flex;
-    margin: 30px;
-    justify-content: center;
-    align-items:flex-end;
-    flex-direction: column;
+.aña{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+#contactos{
     border-style: solid;
+    margin-bottom: -40%;
+    margin-top: -29%;
+    width: 50%;
 }
-
-.lenguajes{
-    align-items: center;
-    justify-content: center;
+#contactos img{
     border-style: solid;
-    margin-right: 20%;
-    pad: 20px;
-    margin-bottom: -75px;
-    margin-top: -5%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    margin-left: 6%;
 }
-
-
-a:visited img {
-    border-color: black; 
-}
-#extras{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: -20%;
-    justify-items: flex-end;
-    justify-content: flex-end;
-    
+#contactos img:hover{
+    transform: scale(1.1);
 }

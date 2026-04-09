@@ -1,0 +1,168 @@
+header{
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 20px;
+    padding: 20px;
+}
+ul a{ text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 21px;
+}
+ul a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#sobre-mi{
+    display: flex;
+    border-style: solid;  
+    width: 40%;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-right: 58%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 15%;
+}
+#img-sobre-mi{
+    display: flex;
+    border-radius: 50%;
+    border-style:solid;
+    margin: 40px;
+    
+    
+}
+
+#descripcion{
+    display: flex;
+    border-style: solid;
+    width: 50%;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-right: 48%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#decoracion{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+}
+#decoracion a:hover{
+    transform:scale(1.5);
+}
+#decoracion a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+.ala {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.proyectos {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    width: 100%;            
+    border-style: solid;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 90%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.project{
+    margin-right:7% ;
+}
+#extras {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+    margin-top: -48%;
+    margin-bottom: 10%;
+}
+
+a:visited img {
+    border-color: black; 
+}
+
+#lenguajes{
+    display: flex;
+    margin-right: 8%;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;;
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+.nose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;            
+    border-style: solid;
+    margin-left: -120%;
+    margin-top: 20%;
+    font-size: 90%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.aña{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+#contactos img{
+    display: grid;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10%;
+    margin-left: 40%;
+    
+}
+#contactos img:hover{
+    transform: scale(1.1);
+}
+body{
+    background-color: rgb(255, 255, 255);    
+    background-image: url(https://wallpapers.com/images/hd/hypnotising-black-and-red-hexagons-1bcjfbamkbdurj5y.jpg);
+}
+#contenedor-informacion{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#descripcion{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#contac{
+    
+    border-style: solid;
+    width: 48%;
+    margin-top: -28%;
+    padding: 1%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+#contactos{
+    display: flex;
+}

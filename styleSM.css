@@ -19,25 +19,45 @@ ul a:hover{
     color: black;
 }
 img{
-    width: 600px;
-    height: 700px;
     border-style: solid;
-    object-fit: cover;
+}
+#arriba{
+    display: flex;
+    border-style: solid;
+    flex-direction: row;
+}
 
-}
-section{
-    display: flex;
+#imagen{
     border-style: solid;
-}
-div{
-    display: flex;
-    border-style: solid;
+    padding: 1%;
+    margin: 1%;
 }
 #texto{
-    display: flex;
-    flex-direction: column;
-    
+    border-style: solid;
+    padding: 1%;
+}
+#contactos{
+    border-style: solid;
+    margin-bottom: -50%;
+    margin-top: -17%;
+    margin-left: 20%;
+    padding-top: 3.4%;
+    padding-bottom: 2.6%;
+}
+#contactos img{
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 6%;
+}
+#contactos img:hover{
+    transform: scale(1.1);
+}
+a:visited img {
+    border-color: black; 
 }
 table{
-    font-size: 138%
+    width: 20%;
 }
